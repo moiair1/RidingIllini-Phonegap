@@ -1,0 +1,44 @@
+body{
+  margin: 0;
+  padding: 0;
+  background: url("../img/bg-2.jpg");
+  background-size: cover; 
+}
+#map {
+  width: 100%;
+  height: 90vh;
+  background-image: url("../img/728.gif");
+  background-repeat: no-repeat;
+  background-position: center center;
+}
+#wrap{
+  display: inline-block; 
+  width: 90%; 
+  height:100%; 
+  margin:5%;
+  margin-top:11%;
+}
+header{
+  color: #fff;
+  background-color: rgba(0,0,0,0.1);
+  display: inline-block;
+  width:102%;
+  position:fixed; 
+  z-index:2; 
+  text-align:center; 
+  font-size:2em;
+}
+#stop_div{
+  float: left; 
+  width: 50%;
+}
+.header_tab{
+ width: 50%;
+ padding-bottom: .3em;
+ padding-top: .3em;
+ background-color: #002058;
+ float: left;
+}
+#map_view{
+  background-color:#E87722;  
+}
