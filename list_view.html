@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>RidingIllini:List View</title>
+	<link rel="stylesheet" type="text/css" href="css/list_view.css">
+	<link rel="icon" type="image/png" href="data:image/png;base64,iVBORw0KGgo=">
+</head>
+<body>
+	<header>
+		<div id="list_view" class="header_tab">List</div>
+		<a href="map_view.html"><div id="map_view" class="header_tab">Map</div></a>
+	</header>
+	<br>
+	<div id="departure_wrap">
+		<div id='close' style='float:right; width:6%; height:6%;'>
+			<img src='img/close.png' height='100%' width='100%'/>
+		</div>
+		<ul id="departure_list"></ul>
+	</div>
+	<div id="wrap_autosuggest">
+		<input type="text" id="autosuggest"/>
+		<ul id="stop_search"></ul>
+	</div>
+	<footer>
+		<script src="js/jquery.js"></script>
+		<script type="text/javascript" src="js/list_view.js"></script>
+	</footer>
+</body>
+</html>
