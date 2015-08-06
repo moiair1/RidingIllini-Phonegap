@@ -1,12 +1,11 @@
 body{
   margin: 0;
   padding: 0;
-  background: url("../img/bg-2.jpg") no-repeat center center fixed; 
-  -webkit-background-size: cover;
-  -moz-background-size: cover;
-  -o-background-size: cover;
-  background-size: cover;
-  font-size: 32pt;
+  background-color: white;
+  background-image: url("../img/bg-4.jpg");
+  background-repeat: no-repeat;
+  background-position: left top;
+  font-size: 1em;
 }
 a{
   text-decoration: none;
@@ -14,17 +13,17 @@ a{
 }
 #map {
   width: 100%;
-  height: 90vh;
+  height: 88vh;
   background-image: url("../img/loading-wheel.gif");
   background-repeat: no-repeat;
   background-position: center center;
 }
 #wrap{
   display: inline-block; 
-  width: 90%; 
+  width: 94%; 
   height:100%; 
-  margin:5%;
-  margin-top:13%;
+  margin:3%;
+  margin-top:17%;
 }
 header{
   color: #fff;

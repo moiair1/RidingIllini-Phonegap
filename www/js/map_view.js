@@ -88,7 +88,7 @@ function addStopMarkers(){
 			var stop_lat=my_data["stops"][i]["stop_points"][j]["stop_lat"];
 			var stop_lon=my_data["stops"][i]["stop_points"][j]["stop_lon"];
 			var stop_id=my_data["stops"][i]["stop_points"][j]["stop_id"];
-			var string_creator="<div style='min-height:20vh; max-height:70vh;min-width:30vh; font-size:2em;'><em><u><p>"
+			var string_creator="<div style='min-height:20vh; max-height:70vh;min-width:30vh; font-size:1em;'><em><u><p>"
 			+stop_name+"</p></em></u></div>";
 			marker=map.addMarker({
 				icon : 'http://gmaps-samples.googlecode.com/svn/trunk/markers/blue/blank.png',
