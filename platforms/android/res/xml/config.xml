@@ -6,13 +6,14 @@
         <param name="onload" value="true" />
     </feature>
     <allow-intent href="market:*" />
+    <icon density="mdpi" height="57" src="www/img/logo.png" width="57" />
     <name>Riding Illini</name>
     <description>
-    Application using the CUMTD Api
-  </description>
+		Application using the CUMTD Api
+	</description>
     <author email="nikhil1wahi@gmail.com">
-    Nikhil Wahi
-  </author>
+		Nikhil Wahi
+	</author>
     <content src="index.html" />
     <preference name="permissions" value="none" />
     <preference name="orientation" value="default" />
@@ -47,31 +48,6 @@
     <gap:plugin name="org.apache.cordova.network-information" />
     <gap:plugin name="org.apache.cordova.splashscreen" />
     <gap:plugin name="org.apache.cordova.vibration" />
-    <icon src="img/icon.png" />
-    <icon gap:platform="android" gap:qualifier="ldpi" src="img/icon.png" />
-    <icon gap:platform="android" gap:qualifier="mdpi" src="img/icon.png" />
-    <icon gap:platform="android" gap:qualifier="hdpi" src="img/icon.png" />
-    <icon gap:platform="android" gap:qualifier="xhdpi" src="img/icon.png" />
-    <icon gap:platform="blackberry" src="img/icon.png" />
-    <icon gap:platform="blackberry" gap:state="hover" src="img/icon.png" />
-    <icon gap:platform="ios" height="57" src="img/icon.png" width="57" />
-    <icon gap:platform="ios" height="72" src="img/icon.png" width="72" />
-    <icon gap:platform="ios" height="114" src="img/icon.png" width="114" />
-    <icon gap:platform="ios" height="144" src="img/icon.png" width="144" />
-    <icon gap:platform="webos" src="img/icon.png" />
-    <icon gap:platform="winphone" src="img/icon.png" />
-    <icon gap:platform="winphone" gap:role="background" src="img/icon.png" />
-    <gap:splash gap:platform="android" gap:qualifier="port-ldpi" src="www/res/screen/android/screen-ldpi-portrait.png" />
-    <gap:splash gap:platform="android" gap:qualifier="port-mdpi" src="www/res/screen/android/screen-mdpi-portrait.png" />
-    <gap:splash gap:platform="android" gap:qualifier="port-hdpi" src="www/res/screen/android/screen-hdpi-portrait.png" />
-    <gap:splash gap:platform="android" gap:qualifier="port-xhdpi" src="www/res/screen/android/screen-xhdpi-portrait.png" />
-    <gap:splash gap:platform="blackberry" src="www/res/screen/blackberry/screen-225.png" />
-    <gap:splash gap:platform="ios" height="480" src="www/res/screen/ios/screen-iphone-portrait.png" width="320" />
-    <gap:splash gap:platform="ios" height="960" src="www/res/screen/ios/screen-iphone-portrait-2x.png" width="640" />
-    <gap:splash gap:platform="ios" height="1136" src="www/res/screen/ios/screen-iphone-portrait-568h-2x.png" width="640" />
-    <gap:splash gap:platform="ios" height="1024" src="www/res/screen/ios/screen-ipad-portrait.png" width="768" />
-    <gap:splash gap:platform="ios" height="768" src="www/res/screen/ios/screen-ipad-landscape.png" width="1024" />
-    <gap:splash gap:platform="winphone" src="www/res/screen/windows-phone/screen-portrait.jpg" />
     <access origin="*" />
     <allow-intent href="http://*/*" />
     <allow-intent href="https://*/*" />
@@ -79,4 +55,6 @@
     <allow-intent href="sms:*" />
     <allow-intent href="mailto:*" />
     <allow-intent href="geo:*" />
+    <preference name="Fullscreen" value="true" />
+    <preference name="Orientation" value="portrait" />
 </widget>
